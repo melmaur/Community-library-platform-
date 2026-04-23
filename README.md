@@ -5,7 +5,7 @@ A full-stack library management system built in Java as learning exercise, it co
 ## Services
 - [Library Management](https://github.com/melmaur/library-java.git) — Java console app
 - [Library REST API](https://github.com/melmaur/todo-api.git) — Spring Boot API
-- [Booking System](link) — Spring Boot booking service
+- [Booking System](https://github.com/melmaur/library-booking.git) — Spring Boot booking service
 
 ## Architecture
 Console App → REST API → Booking System
