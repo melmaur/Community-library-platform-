@@ -30,8 +30,7 @@ developed following the Scrum framework.
 | Project | Description | Technologies | Repository |
 |---|---|---|---|
 | Library Management | Java console app for book catalog | Java, OOP, CSV, Git | [library-java](https://github.com/melmaur/library-java.git) |
-| Library REST API | Spring Boot REST API for book catalog | Spring Boot, JPA, H2 | [todo-api](https://github.com/melmaur/todo-api.git)|
-| Library REST API | Spring Boot REST API for book catalog | Spring Boot, JPA, H2, **Docker** | todo-api |
+| Library REST API | Spring Boot REST API for book catalog | Spring Boot, JPA, H2, **Docker** | [todo-api](https://github.com/melmaur/todo-api.git)|
 | Booking System | Full stack booking system with web UI | Spring Boot, JPA, H2, HTML/CSS/JS | [library-booking](https://github.com/melmaur/library-booking.git) |
 
 
@@ -51,7 +50,7 @@ Each service is independent but designed to work together as a microservices-ins
 - H2 In-memory Database
 - Maven
 - HTML / CSS / JavaScript
-- **Docker** containerization (Project 2 api) added a Sprint Maintenance  
+- **Docker** containerization added a Sprint Maintenance — Docker Spike: 2-day timebox to explore containerization and apply it to existing services."
 - Git & GitHub
 
 ## ⚙️ Agile Process
