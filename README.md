@@ -30,8 +30,10 @@ developed following the Scrum framework.
 | Project | Description | Technologies | Repository |
 |---|---|---|---|
 | Library Management | Java console app for book catalog | Java, OOP, CSV, Git | [library-java](https://github.com/melmaur/library-java.git) |
-| Library REST API | Spring Boot REST API for book catalog | Spring Boot, JPA, H2 | [todo-api](https://github.com/melmaur/todo-api.git) |
+| Library REST API | Spring Boot REST API for book catalog | Spring Boot, JPA, H2 | [todo-api](https://github.com/melmaur/todo-api.git)|
+| Library REST API | Spring Boot REST API for book catalog | Spring Boot, JPA, H2, **Docker** | todo-api |
 | Booking System | Full stack booking system with web UI | Spring Boot, JPA, H2, HTML/CSS/JS | [library-booking](https://github.com/melmaur/library-booking.git) |
+
 
 ## 🏗️ Architecture
 
@@ -49,6 +51,7 @@ Each service is independent but designed to work together as a microservices-ins
 - H2 In-memory Database
 - Maven
 - HTML / CSS / JavaScript
+- **Docker** containerization (Project 2 api) added a Sprint Maintenance  
 - Git & GitHub
 
 ## ⚙️ Agile Process
@@ -65,11 +68,31 @@ All three projects were developed following the **Scrum framework**:
 
 ## 🔮 Future Development
 
+- **docker-compose.yml** — orchestrate all three services together
+- **Docker** — containerize Project 3 (library-booking)
+- **Kubernetes** — deployment orchestration
 - **Spring Security** — user authentication and login
 - **Role-based access control** — Admin vs User permissions
 - **JUnit tests** — unit and integration testing
 - **Docker** — containerization of all three services
 - **React frontend** — upgrade web UI to a modern framework
+
+
+
+
+## 🐳 Docker
+
+Project 2 (Library REST API) is fully containerized.
+
+```bash
+cd todo-api
+docker build -t todo-api .
+docker run -p 8080:8080 todo-api
+```
+
+API available at `http://localhost:8080/api/todos`
+
+Docker support for Project 3 coming in next sprint.
 
 ## 🚀 How to Run
 
