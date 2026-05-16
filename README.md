@@ -31,7 +31,7 @@ developed following the Scrum framework.
 |---|---|---|---|
 | Library Management | Java console app for book catalog | Java, OOP, CSV, Git | [library-java](https://github.com/melmaur/library-java.git) |
 | Library REST API | Spring Boot REST API for book catalog | Spring Boot, JPA, H2, **Docker** | [todo-api](https://github.com/melmaur/todo-api.git)|
-| Booking System | Full stack booking system with web UI | Spring Boot, JPA, H2, HTML/CSS/JS | [library-booking](https://github.com/melmaur/library-booking.git) |
+| Booking System | Full stack booking system with web UI | Spring Boot, JPA, H2, HTML/CSS/JS, **Docker** | [library-booking](https://github.com/melmaur/library-booking.git) |
 
 
 ## 🏗️ Architecture
@@ -50,7 +50,7 @@ Each service is independent but designed to work together as a microservices-ins
 - H2 In-memory Database
 - Maven
 - HTML / CSS / JavaScript
-- **Docker** containerization added a Sprint Maintenance — Docker Spike: 2-day timebox to explore containerization and apply it to existing services."
+- **Docker** containerization added a Sprint Maintenance — Docker Spike: 2-days timebox to explore containerization and apply it to existing services."
 - Git & GitHub
 
 ## ⚙️ Agile Process
@@ -68,15 +68,12 @@ All three projects were developed following the **Scrum framework**:
 ## 🔮 Future Development
 
 - **docker-compose.yml** — orchestrate all three services together
-- **Docker** — containerize Project 3 (library-booking)
 - **Kubernetes** — deployment orchestration
 - **Spring Security** — user authentication and login
 - **Role-based access control** — Admin vs User permissions
 - **JUnit tests** — unit and integration testing
 - **Docker** — containerization of all three services
 - **React frontend** — upgrade web UI to a modern framework
-
-
 
 
 ## 🐳 Docker
