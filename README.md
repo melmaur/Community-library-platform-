@@ -30,7 +30,7 @@ developed following the Scrum framework.
 | Project | Description | Technologies | Repository |
 |---|---|---|---|
 | Library Management | Java console app for book catalog | Java, OOP, CSV, Git | [library-java](https://github.com/melmaur/library-java.git) |
-| Library REST API | Spring Boot REST API for book catalog | Spring Boot, JPA, H2, **Docker**, basiv JTests on todoController | [todo-api](https://github.com/melmaur/todo-api.git)|
+| Library REST API | Spring Boot REST API for book catalog | Spring Boot, JPA, H2, **Docker**, 4 basic JUnit Tests for todoController.java | [todo-api](https://github.com/melmaur/todo-api.git)|
 | Booking System | Full stack booking system with web UI | Spring Boot, JPA, H2, HTML/CSS/JS, **Docker** | [library-booking](https://github.com/melmaur/library-booking.git) |
 
 
